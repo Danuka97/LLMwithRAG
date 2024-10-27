@@ -35,7 +35,7 @@ load_dotenv()
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 if "GOOGLE_API_KEY" not in os.environ:
-    os.environ["GOOGLE_API_KEY"] = "AIzaSyDm4bCaEZLJ-NhJejSRyF1iOq2V2jXLlW8"
+    os.environ["GOOGLE_API_KEY"] = "add you token"
 #AIzaSyDm4bCaEZLJ-NhJejSRyF1iOq2V2jXLlW8
 
 
